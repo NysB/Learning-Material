@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Show on tab of page -->
+    <title> My First Web Page </title>
+
+    <!-- Show up on google as description of the page -->
+    <meta name="description" content="Page Description Here"/>
+
+    <!-- Defines visible area of the device -->
+            <!-- Initial scale = zoom function on screen -->
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!-- Defines style of page -->
+    <style type="text/css">
+        Body {
+            color: red;
+        }
+
+    </style>
+
+</head>
+
+<!-- Visible in browser -->
+<body>
+    <p>This is one paragraph</p>
+    <p>This is another paragraph</p>
+    <p>This is line 1. <br> This is line 2</p>
+    <p>This is line 1. &nbsp &nbsp This is line 2</p>
+    
+    <h1> Header 1 </h1>
+    <h2> Header 2 </h2>
+    <h3> Header 3 </h3>
+    <h4> Header 4 </h4>
+
+    <p>
+        <strong> Bold text </strong> <br>
+        <en> Italic text </en> <br>
+        <u> Underlined text </u> <br>
+        <strike> Strike text </strike> <br>
+        <strong><en><u> Bold text </strong></u></en>
+    </p>
+
+    <p>
+        <ul>
+            <li> List Item 1</li>
+            <li> List Item 2</li>
+            <li> List Item 3</li>
+        </ul>
+    </p>
+
+    <p>
+        <ol>
+            <li> List Item 1</li>
+            <li> List Item 2</li>
+            <li> List Item 3</li>
+        </ol>
+    </p>
+
+    <h1> Holiday picture </h1>
+    <p>
+        <img src ="../A. Course Material/Lecture 13 - Images/FL.jpg" width="300" height="250">
+        <img src ="../A. Course Material/Lecture 13 - Images/LV.jpg" width="300" height="250">
+        
+    </p>
+
+    <p>
+    <video width="100%" controls autoplay >
+        <source src="../A. Course Material/Lecture 14 - Embed Video/ya.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    </p>
+
+    <p>
+        <a href="www.google.com" target="_blank"> text </a> <br>
+        <a href="www.google.com"> <img src ="../A. Course Material/Lecture 13 - Images/LV.jpg" width="300" height="250"> </a>
+    </p>
+
+    <p><h1>Table of Contents:</h1></p>
+        <ul>
+            <li><a href="#article1">Article 1</a></li>
+            <li>Article 2</li>
+        </ul>
+    <p><h1><a id="article1"></a>Article 1</h1></p>
+
+    <p><h1> Add table </h1></p>
+
+    <table width="50%" border="1" bordercolor="blue" cellspacing="2" cellpadding="2">
+        <tr> 
+            <td> row 1 column 1 </td>
+            <td> row 1 column 2 </td>
+        </tr>
+        <tr> 
+            <td colspan="2"> row 2 column 1 </td>
+        </tr>
+    </table>
+
+    <p><h1> Add nested table </h1></p>
+
+    <table width="100%" border="1" bordercolor="red" cellspacing="2" cellpadding="2">
+        <tr> 
+            <td> 
+                <table background="../A. Course Material/Lecture 13 - Images/FL.jpg" width="100%">
+                    <tr> 
+                        <td> row 1 column 1 </td>
+                        <td> row 1 column 2 </td>
+                    </tr>
+                    <tr> 
+                        <td> row 2 column 1 </td>
+                        <td> row 2 column 2 </td>
+                    </tr>
+                </table>
+            </td>
+            <td> row 1 column 2 </td>
+        </tr>
+        <tr> 
+            <td colspan="2"> row 2 column 1 </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

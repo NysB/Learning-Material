@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<title>Table Tutorial</title>
+		<meta charset="utf-8">
+	</head>
+
+
+<body>
+
+  <form name="Employment" action="send.php" method="post">
+
+
+ <table width="600" border="1" cellspacing="2" cellpadding="2">
+    <tr>
+      <td colspan="2">Employment Application</td>
+    </tr>
+    <tr>
+      <td>First Name</td>
+      <td><input type="text" name="fnaam" maxlength="50" required></td>
+    </tr>
+    <tr>
+      <td>Last Name</td>
+      <td><input type="text" name="lnaam" maxlength="50"></td>
+    </tr>
+    <tr>
+      <td>Position</td>
+      <td>
+        <select name="position">
+          <option value="1"> Option 1 </option>
+          <option value="2"> Option 2 </option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Experience level</td>
+      <td>
+        <input type="checkbox" name="ft" /> Full-time
+        <input type="checkbox" name="pt" /> Part-time
+      </td>
+    </tr>
+    <tr>
+      <td>Job Type</td>
+      <td>
+        <input type="radio" name="em" /> Employed
+        <input type="radio" name="em" /> Unemployed
+      </td>
+    </tr>
+    <tr>
+      <td>Employment Status</td>
+      <td>
+        <textarea name="comments" cols="45" rows="5"></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <input type="submit" name="submit1" value="submit" />
+        <input type="reset" name="reset1" value="reset" />
+
+      </td>
+    </tr>
+  </table>
+
+</form>
+
+</body>
+</html>
